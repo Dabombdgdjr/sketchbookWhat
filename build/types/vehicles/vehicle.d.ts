@@ -44,7 +44,7 @@ export declare abstract class Vehicle extends THREE.Object3D implements IWorldEn
     inputReceiverUpdate(timeStep: number): void;
     setPosition(x: number, y: number, z: number): void;
     setSteeringValue(val: number): void;
-    applyEngineForce(force: number): void;
+    applyEngineForce(force: 20): void;
     setBrake(brakeForce: number, driveFilter?: string): void;
     addToWorld(world: World): void;
     removeFromWorld(world: World): void;
