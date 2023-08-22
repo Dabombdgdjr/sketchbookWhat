@@ -31,7 +31,7 @@ export declare class Character extends THREE.Object3D implements IWorldEntity {
     defaultVelocitySimulatorDamping: number;
     defaultVelocitySimulatorMass: number;
     velocitySimulator: VectorSpringSimulator;
-    moveSpeed: number;
+    moveSpeed: 100;
     angularVelocity: number;
     orientation: THREE.Vector3;
     orientationTarget: THREE.Vector3;
@@ -48,7 +48,7 @@ export declare class Character extends THREE.Object3D implements IWorldEntity {
     rayCastLength: number;
     raySafeOffset: number;
     wantsToJump: boolean;
-    initJumpSpeed: number;
+    initJumpSpeed: 100;
     groundImpactData: GroundImpactData;
     raycastBox: THREE.Mesh;
     world: World;
